@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>바자의 연습장</title>
+    <meta
+      name="description"
+      content="Designer, AI Tool Builder, Vibe Coder 바자의 작업물 기록"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="notebook-paper" aria-labelledby="main-title">
+        <div class="paper-holes" aria-hidden="true"></div>
+        <img
+          class="corner-cat"
+          src="./assets/illustrations/corner-cat.png"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <div class="brand-line">
+          <span>vasa's log</span>
+          <span class="brand-face" aria-hidden="true"></span>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="kicker">VIBE CODING</p>
+            <h1 id="main-title">바자의<br />연습장이에요</h1>
+            <p class="intro">
+              Claude랑 같이 만든 것들을<br />
+              끄적끄적 모아두는 중
+            </p>
+          </div>
+
+          <div class="hero-illustration-wrap">
+            <div class="thought">기록하고<br />만들고<br />실험해요!</div>
+            <img
+              class="hero-illustration"
+              src="./assets/illustrations/hero-girl.png"
+              alt="노트북 앞에 앉아 작업하는 손그림 소녀"
+            />
+          </div>
+        </div>
+
+        <div class="section-title">
+          <span></span>
+          <h2>지금까지 끄적인 것들</h2>
+        </div>
+
+        <div class="portfolio-grid" id="portfolioGrid" aria-label="작업물 목록"></div>
+      </section>
+
+      <aside class="side-stack" aria-label="소개와 연락">
+        <section class="memo-paper about-note">
+          <div class="note-heading">
+            <h2>소개</h2>
+            <span aria-hidden="true"></span>
+          </div>
+          <img
+            class="about-face"
+            src="./assets/illustrations/about-face.png"
+            alt="손을 흔드는 손그림 얼굴"
+          />
+          <div class="about-copy">
+            <img
+              class="about-inline-face"
+              src="./assets/illustrations/about-face.png"
+              alt=""
+              aria-hidden="true"
+            />
+            <p class="about-name">바자</p>
+            <div class="role-tags" aria-label="역할">
+              <span>Designer</span>
+              <span>AI Tool Builder</span>
+              <span>Vibe Coder</span>
+            </div>
+            <p>
+              디자이너인데 Claude랑 바이브코딩에 빠져버렸어요. 만들고 싶은 게 생기면
+              일단 만들어보는 스타일. 여기는 그냥 제 연습장입니다.
+            </p>
+          </div>
+        </section>
+
+        <section class="memo-paper interest-note">
+          <div class="note-heading">
+            <h2>관심사</h2>
+            <span aria-hidden="true"></span>
+          </div>
+          <div class="interest-tags">
+            <span>디자인</span>
+            <span>바이브코딩</span>
+            <span>AI 툴 만들기</span>
+            <span>ADHD</span>
+            <span>게임</span>
+            <span>방탈출</span>
+            <span>고양이</span>
+            <span>콘텐츠 자동화</span>
+          </div>
+        </section>
+
+        <section class="memo-paper contact-note">
+          <div class="note-heading">
+            <h2>연락</h2>
+            <span aria-hidden="true"></span>
+          </div>
+          <p>뭔가 같이 만들고 싶거나, 그냥 안녕 인사도 환영이에요.</p>
+          <div class="contact-links" aria-label="연락처">
+            <a href="https://twitter.com/vi_signer_i" target="_blank" rel="noreferrer">
+              <span>X</span>
+              @vi_signer_i
+            </a>
+            <a href="mailto:vibe.signer.i@gmail.com">
+              <span>@</span>
+              vibe.signer.i@gmail.com
+            </a>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <div class="modal" id="projectModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close></div>
+      <section
+        class="modal-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+        aria-describedby="modalDescription"
+      >
+        <button class="modal-close" type="button" data-close aria-label="닫기">
+          <span></span>
+        </button>
+        <div class="modal-media" id="modalMedia"></div>
+        <div class="modal-controls" id="modalControls" hidden>
+          <button type="button" data-slide="-1" aria-label="이전 이미지">‹</button>
+          <p><span id="slideCurrent">1</span>/<span id="slideTotal">1</span></p>
+          <button type="button" data-slide="1" aria-label="다음 이미지">›</button>
+        </div>
+        <p class="modal-label">크게 보기</p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+        <div class="modal-tags" id="modalTags"></div>
+        <a class="modal-link" id="modalLink" href="#" target="_blank" rel="noreferrer">
+          사이트 바로가기
+        </a>
+      </section>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
