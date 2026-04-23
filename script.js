@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "대나무숲",
+    description:
+      "남들한테 말하긴 그렇지만 소리치고 싶던 말을 외치러 오는 익명 해소 공간. 외친 말들은 어디에도 남지 않아요.",
+    tags: ["익명", "대나무숲", "마음정리"],
+    images: ["./assets/projects/daenamu-sup.png"],
+    link: "https://vivis-ri.github.io/daenamu-sup/",
+  },
+  {
     title: "너 여기 가야돼",
     description: "일정·장소 등록하면 위젯이 알려줘요. 너 n분 후에 여기 가야돼",
     tags: ["Android", "Widget", "일정관리"],
