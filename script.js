@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "오늘 뭐입지?",
+    description:
+      "현재 날씨와 시간대별 예보, 미세먼지 정보까지 보고 오늘 입기 좋은 옷차림을 추천해주는 날씨 기반 코디 서비스.",
+    tags: ["날씨", "옷추천", "코디"],
+    images: ["./assets/projects/oneul-mwo-ipji.png"],
+    link: "https://oneul-mwo-ipji.onrender.com/#",
+  },
+  {
     title: "대나무숲",
     description:
       "남들한테 말하긴 그렇지만 소리치고 싶던 말을 외치러 오는 익명 해소 공간. 외친 말들은 어디에도 남지 않아요.",
