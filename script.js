@@ -21,6 +21,7 @@ const projects = [
       "파워포인트를 조종하는 작은 리모콘. 리본 메뉴 안 뒤지고 자주 쓰는 기능만 모아서 항상 떠 있는 패널로 꺼내놨어요. 정렬·배분·슬라이드 기준 토글 지원.",
     tags: ["Windows", "PowerPoint", "데스크탑앱"],
     images: ["./assets/projects/slide-remote.png"],
+    link: "https://www.postype.com/@vi-signer-i/post/22510905",
   },
   {
     title: "오늘 뭐입지?",
