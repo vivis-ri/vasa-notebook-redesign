@@ -1,5 +1,21 @@
 const projects = [
   {
+    title: "엑셀 지뢰찾기",
+    description:
+      "딱 봐도 엑셀인데 사실 지뢰찾기. 셀을 클릭해서 지뢰를 피하세요. 업무 중인 척 할 수 있어요.",
+    tags: ["게임", "엑셀", "지뢰찾기"],
+    images: ["./assets/projects/excel-minesweeper.png"],
+    link: "https://vivis-ri.github.io/excel-minesweeper/",
+  },
+  {
+    title: "강아지한테 물어봐",
+    description:
+      "결정 못 하겠으면 강아지한테 맡기세요. 선택지를 넣으면 강아지가 직접 골라줍니다. 앉거나, 물고 도망가거나.",
+    tags: ["결정장애", "강아지", "애니메이션"],
+    images: ["./assets/projects/ask-the-dog.png"],
+    link: "https://vivis-ri.github.io/ask-the-dog/",
+  },
+  {
     title: "슬라이드 리모콘",
     description:
       "파워포인트를 조종하는 작은 리모콘. 리본 메뉴 안 뒤지고 자주 쓰는 기능만 모아서 항상 떠 있는 패널로 꺼내놨어요. 정렬·배분·슬라이드 기준 토글 지원.",
