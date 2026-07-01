@@ -79,6 +79,12 @@ const projects = [
     link: "https://font-lab-delta.vercel.app",
   },
   {
+    title: "튜브렌즈 TubeLens",
+    description: "유튜브 채널 분석부터 대본 추천까지 도와주는 도구",
+    tags: ["카테고리 분석", "트렌드 피드", "대본 추천"],
+    images: ["./assets/projects/tubelens.png"],
+  },
+  {
     title: "Word Chat",
     description: "Word UI 기반 채팅 웹사이트",
     tags: ["Claude", "채팅", "UI"],
